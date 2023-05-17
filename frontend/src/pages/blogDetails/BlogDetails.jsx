@@ -94,25 +94,11 @@ const BlogDetails = () => {
                     to={`/updateBlog/${blogDetails?._id}`}
                     className={classes.edit}
                   >
-                    <Button
-                      name={"Edit Post"}
-                      icon={edit}
-                      bPad={".8rem 1.6rem"}
-                      bRad={"30px"}
-                      bg={"var(--color-accent"}
-                      color={"#fff"}
-                    />
+                    <div style={{marginLeft: "20px"}}>{edit} <span>Edit</span></div>
                   </Link>
                   <div className={classes.delete}>
-                    <Button
-                      name={"Delete Post"}
-                      icon={trash}
-                      bPad={".8rem 1.6rem"}
-                      bRad={"30px"}
-                      bg={"var(--color-accent"}
-                      color={"#fff"}
-                      onClick={handleDeleteBlog}
-                    />
+                    
+                  <div style={{marginLeft: "20px"}}>{trash} <span onClick={handleDeleteBlog}>Delete</span></div>
                   </div>
                 </div>
               ) : (

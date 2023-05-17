@@ -42,18 +42,21 @@
 
 .controls>.edit{
     cursor: pointer;
-    padding: 0.4rem 0.75rem;
     border-radius: 30px;
     background-color: #2db9b9;
     color: #fff;
+    padding: 15px;
+    width: 120px !important;
 }
 
 .controls > .delete{
     cursor: pointer;
-    padding: 0.4rem 0.75rem;
     border-radius: 30px;
     background-color: rgb(235, 58, 58);
     color: #fff;
+    padding: 15px;
+    width: 130px !important;
+    align-items: center;
 }
 
 .like{
